@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto em JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    
+</head>
+<body>
+    
+    <h1> Calculadora de Média Escolar </h1>
+
+    <form id="form"> 
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome"> <br>
+
+        <label> Qual a sua nota do Ciclo 01?</label>
+        <input type="number" id="nota1" max="100" required> <br>
+
+        <label> Qual a sua nota do Ciclo 02?</label>
+        <input type="number" id="nota2" min="0" max="100" required> <br>
+        
+        <label> Qual a sua nota do Ciclo 03?</label>
+        <input type="number" id="nota3" min="0" max="100" required> <br>
+
+        <button type="submit">Calcular Média</button>
+
+    </form>
+
+    <div>
+        <h2>Resultado:</h2>
+        <p id="mensagem"></p>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
